@@ -2,3 +2,9 @@
 	color: red;
 	border: 1px solid red;
 }
+
+/*FOOTER*/
+footer.my-footer {
+	border: 1px solid orange;
+
+}
