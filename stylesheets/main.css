@@ -1,6 +1,56 @@
-.header {
-	color: red;
-	border: 1px solid red;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+	height: 100%;
+}
+
+/*HEADER*/
+div.header-container {
+	height: 15%;
+	background-color: #2142A3; 
+}
+
+header.my-header {
+	position: fixed;
+	height: 15%;
+
+}
+nav.navbar a {
+	color: white;
+	font-size: 1.2em;
+}
+
+nav.navbar div {
+
+}
+
+p#home {
+	margin-top: 0em;
+}
+
+img#logo {
+	display: inline;
+	margin-top: -0.7em;
+	height: 2.6em;
+	float: left;
+}
+
+header div {
+
+}
+
+i {
+	margin-top: 1em;
+	float: left;
+}
+
+i#search {
+	margin-top: 0em;
 }
 
 /*FOOTER*/
@@ -8,3 +58,4 @@ footer.my-footer {
 	border: 1px solid orange;
 
 }
+
