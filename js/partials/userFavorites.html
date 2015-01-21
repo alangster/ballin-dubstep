@@ -1,9 +1,9 @@
-<div class="col-md-3">
-	<img ng-src="{{ favorites.one }}">
+<div ng-repeat="favorite in favorites track by $index" class="col-md-3">
+	<img ng-src="{{ favorite }}">
 </div>
-<div class="col-md-3">
+<!-- <div class="col-md-3">
 	<img ng-src="{{ favorites.two }}">
 </div>
 <div class="col-md-3">
 	<img ng-src="{{ favorites.three }}">
-</div>
+</div> -->
