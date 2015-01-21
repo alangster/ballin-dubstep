@@ -1,32 +1,31 @@
 html {
   box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, html {
+body {
 	height: 100%;
+	margin-bottom: 60px;
 }
 
 /*HEADER*/
+
 div.header-container {
-	height: 15%;
+	height: 4em;
 	background-color: #2142A3; 
 }
 
 header.my-header {
-	position: fixed;
-	height: 15%;
-
+/* 	position: fixed; */
 }
+
 nav.navbar a {
 	color: white;
 	font-size: 1.2em;
-}
-
-nav.navbar div {
-
 }
 
 p#home {
@@ -40,10 +39,6 @@ img#logo {
 	float: left;
 }
 
-header div {
-
-}
-
 i {
 	margin-top: 1em;
 	float: left;
@@ -53,9 +48,77 @@ i#search {
 	margin-top: 0em;
 }
 
-/*FOOTER*/
-footer.my-footer {
-	border: 1px solid orange;
+/*SIDEBAR*/
 
+div.sidebar {
+	background-color: #2142A3;	
+	position: absolute;
+	margin-top: -1.33em;
+	height: 100%;
+}
+
+userinfo div {
+	height: 8em;
+}
+
+userinfo img {
+	width: 6em;
+	height: auto;
+	float: left;
+	display: inline;
+}
+
+userinfo p#title {
+	color: white;
+	width: 6em;
+	float: left;
+	padding-left: 0.5em;
+	font-size: 1.15em;
+}
+
+userinfo p#points {
+	margin-top: -0.5em;
+	padding-left:1.5em;
+	text-align: center;
+	color: white;
+	height: 2em;
+	float: left;
+	font-size: 1.3em;
+}
+
+userinfo p#points-sub {
+	color: white;
+	margin-top: -2em;
+	padding-left: 0.5em;
+	width: 7em;
+	height: 2em;
+	float: right;
+	clear: left;
+}
+
+ul.nav-sidebar a {
+	color: white;
+}
+
+ul.nav-sidebar a:hover {
+	color:#2142A3;
+}
+
+
+userfavorites img{
+	height: 3em;
+	display: inline;
+	width: auto;
+}
+
+/*FOOTER*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  margin-left: -1.04em;
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
