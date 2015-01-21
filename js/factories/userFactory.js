@@ -15,11 +15,12 @@
 		}
 
 		service.userFavorites = function() {
-			return {
-					one: 'imgs/genericLogo.jpg',
-					two: 'imgs/genericLogo.jpg',
-					three: 'imgs/genericLogo.jpg'
+			var favArray = [];
+
+			for (var i = 0; i < 3; i++) {
+				favArray.push('imgs/genericLogo.jpg');
 			}
+			return favArray;
 		}
 
 		return service;

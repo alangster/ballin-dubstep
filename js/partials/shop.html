@@ -1,0 +1,49 @@
+<div class="row main-links">
+	<div class="col-md-4">
+		<a href="#">Get Involved</a>
+	</div>
+	<div class="col-md-4">
+		<a href="#">All Nonprofits</a>
+	</div>
+	<div class="col-md-4">
+		<a href="#">Shop Local</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<h2>How The WeevU Mobile App Works</h2>
+		<h4>Earn 4 points every time you use the mobile app.</h4>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 phone-info">
+			<p>Download the app now! It's free. Enter in your cell number, and we'll send you the link.</p>
+			<input type="text" placeholder="555.123.456"/>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-3">
+		<img src="imgs/step1.png">
+		<p>The <span class="weevu">Weevr</span> does their shopping at a <span class="weevu">WeevU</span> featured business</p>
+	</div>
+	<div class="col-md-3">
+		<img src="imgs/step2.png">
+		<p>The business passes along a percentage of the transaction to <span class="weevu">WeevU</span></p>
+	</div>
+	<div class="col-md-3">
+		<img src="imgs/step3.png">
+		<p><span class="weevu">WeevU</span> donates the money to the <span class="weevu">Weevr's</span> chosen nonprofit</p>
+	</div>
+	<div class="col-md-3">
+		<div id="weevu-logo-image"><img src="imgs/logo.png"></div>
+		<p>The <span class="weevu">Weevr</span> has just made a difference while doing their everyday shopping</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<h4>Thank you to our business sponsors<h4>
+	</div>
+	<div class="col-md-12 sponsor-logos">
+		<img ng-repeat="sponsor in sponsors track by $index" class="sponsor-logo" ng-src="{{ sponsor }}">
+	</div>
+</div>

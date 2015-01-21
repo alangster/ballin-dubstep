@@ -18,19 +18,21 @@
 				<div class="col-md-2 sidebar">
 					<sidebar></sidebar>	
 				</div>
-				<div class="col-md-10">
-					<content></content>
+				<div class="col-md-10 row" id="content-holder" ng-view>
 				</div>
 			</div>
 			<footer class="footer"></footer>
 		</div>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-route.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 		<script type="text/javascript" src="js/directives/footer.js"></script>
 		<script type="text/javascript" src="js/directives/header.js"></script>
 		<script type="text/javascript" src="js/directives/sidebar.js"></script>
 		<script type="text/javascript" src="js/directives/userinfo.js"></script>
 		<script type="text/javascript" src="js/factories/userFactory.js"></script>
+		<script type="text/javascript" src="js/factories/businessFactory.js"></script>
 		<script type="text/javascript" src="js/directives/userfavorites.js"></script>
+		<script type="text/javascript" src="js/controllers/shopController.js"></script>
 	</body>
 </html>
